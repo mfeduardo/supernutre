@@ -46,7 +46,7 @@ export function HeroSection() {
               size="lg"
               variant="outline"
               asChild
-              className="text-base px-8 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"
+              className="text-base px-8 bg-transparent border-primary-foreground/40 text-primary-foreground hover:bg-primary-foreground/15 hover:border-primary-foreground/60 hover:text-primary-foreground transition-all duration-300"
             >
               <a href="#servicos">Nossos Serviços</a>
             </Button>
