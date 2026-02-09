@@ -23,8 +23,8 @@ export function Header() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? "bg-background/95 backdrop-blur-md shadow-sm border-b border-border"
+        isScrolled || isMobileOpen
+          ? "bg-background shadow-sm border-b border-border"
           : "bg-transparent"
       }`}
     >
@@ -62,7 +62,7 @@ export function Header() {
 
         {/* Mobile menu */}
         {isMobileOpen && (
-          <div className="md:hidden pb-6 border-t border-border animate-fade-up bg-background/95 backdrop-blur-md">
+          <div className="md:hidden pb-6 border-t border-border animate-fade-up">
             <div className="flex flex-col gap-4 pt-4">
               {navLinks.map((link) => (
                 <a
