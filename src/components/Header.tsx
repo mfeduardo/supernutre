@@ -40,7 +40,11 @@ export function Header() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                className={`text-sm font-medium transition-colors ${
+                  isScrolled
+                    ? "text-muted-foreground hover:text-foreground"
+                    : "text-white/90 hover:text-white drop-shadow-sm"
+                }`}
               >
                 {link.label}
               </a>
