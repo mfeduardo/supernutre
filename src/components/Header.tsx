@@ -62,7 +62,7 @@ export function Header() {
 
         {/* Mobile menu */}
         {isMobileOpen && (
-          <div className="md:hidden pb-6 border-t border-border animate-fade-up">
+          <div className="md:hidden pb-6 border-t border-border animate-fade-up bg-background/95 backdrop-blur-md">
             <div className="flex flex-col gap-4 pt-4">
               {navLinks.map((link) => (
                 <a
