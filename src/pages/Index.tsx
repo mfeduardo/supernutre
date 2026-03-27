@@ -13,8 +13,8 @@ const Index = () => {
       <main>
         <HeroSection />
         <ServicesSection />
-        <AboutSection />
         <OperationalSection />
+        <AboutSection />
         <ContactForm />
       </main>
       <Footer />
