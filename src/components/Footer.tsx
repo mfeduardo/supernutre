@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
-            <img src={logo} alt="Supernutre" className="h-10 w-auto mb-4 brightness-0 invert rounded-xl" />
+            <img src={logo} alt="Supernutre" className="h-10 w-auto mb-4 rounded-xl object-contain" />
             <p className="text-sm text-primary-foreground/60 leading-relaxed max-w-xs">
               Especialistas no fornecimento de refeições coletivas e logística
               de alimentos para o setor público e privado.
