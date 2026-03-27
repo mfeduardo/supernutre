@@ -32,7 +32,7 @@ export function Header() {
       <div className="section-container">
         <nav className="flex items-center justify-between h-20">
           <a href="#inicio" className="flex-shrink-0">
-            <img src={logo} alt="Supernutre" className="h-10 md:h-12 w-auto rounded-xl p-1" />
+            <img src={logo} alt="Supernutre" className="h-10 md:h-12 w-auto rounded-xl" />
           </a>
 
           {/* Desktop nav */}
