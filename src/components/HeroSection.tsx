@@ -13,7 +13,7 @@ export function HeroSection() {
           className="w-full h-full object-cover"
           loading="eager"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/70 to-foreground/40" />
+        <div className="absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/70 to-foreground/40 px-[2px] py-[2px]" />
       </div>
 
       <div className="relative section-container w-full pt-20">
