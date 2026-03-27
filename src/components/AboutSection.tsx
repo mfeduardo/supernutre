@@ -39,7 +39,7 @@ export function AboutSection() {
             Quem Somos
           </span>
           <h2 className="heading-section mt-3 text-foreground">
-            Compromisso com a Alimentação de Qualidade
+            {"\n"}
           </h2>
           <p className="text-body-lg mt-6">
             A Super Nutre foi fundada em 2011 por Erick Machado Filgueiras, com
