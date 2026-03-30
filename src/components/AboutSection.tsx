@@ -42,7 +42,7 @@ export function AboutSection() {
             {"\n"}
           </h2>
           <p className="text-body-lg mt-6">
-            A Super Nutre foi fundada em 2011 por Erick Machado Filgueiras, com
+            A Supernutre foi fundada em 2011 por Erick Machado Filgueiras, com
             o objetivo de fornecer refeições coletivas. Nossa empresa se dedica
             em promover saúde a pessoas, famílias e instituições através da
             oferta de uma alimentação saudável e de qualidade. Assumindo esse
