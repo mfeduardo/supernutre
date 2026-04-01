@@ -42,24 +42,24 @@ export function Footer() {
           {/* Compliance */}
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-primary-foreground/80">
-              Dados Institucionais
+              MATRIZ
             </h4>
             <ul className="space-y-2 text-sm text-primary-foreground/60">
               <li>
                 <span className="text-primary-foreground/80">Razão Social:</span>{" "}
-                Supernutre Comercial Eireli
+                Supernutre Comercial Ltda. - ME
               </li>
               <li>
                 <span className="text-primary-foreground/80">CNPJ:</span>{" "}
                 12.982.763/0001-64
               </li>
               <li>
-                <span className="text-primary-foreground/80">NIRE:</span>{" "}
-                29600213093
-              </li>
-              <li>
                 <span className="text-primary-foreground/80">Sede:</span>{" "}
                 São Francisco do Conde - BA
+              </li>
+              <li>
+                <span className="text-primary-foreground/80">Endereço:</span>{" "}
+                Rua Mário Augusto Teixeira de Freitas, 02-B - Centro - CEP 43900-000
               </li>
             </ul>
           </div>
@@ -67,24 +67,24 @@ export function Footer() {
           {/* Filial */}
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-primary-foreground/80">
-              Dados da Filial
+              FILIAL
             </h4>
             <ul className="space-y-2 text-sm text-primary-foreground/60">
               <li>
                 <span className="text-primary-foreground/80">Razão Social:</span>{" "}
-                Supernutre Comercial Eireli
+                Supernutre Comercial Ltda. - ME
               </li>
               <li>
                 <span className="text-primary-foreground/80">CNPJ:</span>{" "}
-                12.982.763/0001-64
+                12.982.763/0002-45
               </li>
               <li>
-                <span className="text-primary-foreground/80">NIRE:</span>{" "}
-                29600213093
+                <span className="text-primary-foreground/80">Filial:</span>{" "}
+                Salvador - BA
               </li>
               <li>
-                <span className="text-primary-foreground/80">Sede:</span>{" "}
-                São Francisco do Conde - BA
+                <span className="text-primary-foreground/80">Endereço:</span>{" "}
+                Rua Lamarão, 334 - Pernambués - CEP 41100-086
               </li>
             </ul>
           </div>
