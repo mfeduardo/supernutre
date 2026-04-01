@@ -4,7 +4,7 @@ export function Footer() {
   return (
     <footer id="institucional" className="bg-foreground text-primary-foreground">
       <div className="section-container py-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div>
             <img src={logo} alt="Supernutre" className="h-10 w-auto mb-4 rounded-xl object-contain" />
@@ -43,6 +43,31 @@ export function Footer() {
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-primary-foreground/80">
               Dados Institucionais
+            </h4>
+            <ul className="space-y-2 text-sm text-primary-foreground/60">
+              <li>
+                <span className="text-primary-foreground/80">Razão Social:</span>{" "}
+                Supernutre Comercial Eireli
+              </li>
+              <li>
+                <span className="text-primary-foreground/80">CNPJ:</span>{" "}
+                12.982.763/0001-64
+              </li>
+              <li>
+                <span className="text-primary-foreground/80">NIRE:</span>{" "}
+                29600213093
+              </li>
+              <li>
+                <span className="text-primary-foreground/80">Sede:</span>{" "}
+                São Francisco do Conde - BA
+              </li>
+            </ul>
+          </div>
+
+          {/* Filial */}
+          <div>
+            <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-primary-foreground/80">
+              Dados da Filial
             </h4>
             <ul className="space-y-2 text-sm text-primary-foreground/60">
               <li>
