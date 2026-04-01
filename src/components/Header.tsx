@@ -51,7 +51,7 @@ export function Header() {
               </a>
             ))}
             <Button asChild>
-              <a href="#contato">Solicitar Orçamento</a>
+              <a href="#contato">Fale Conosco</a>
             </Button>
           </div>
 
