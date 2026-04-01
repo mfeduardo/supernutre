@@ -92,7 +92,7 @@ export function Footer() {
 
         <div className="border-t border-primary-foreground/10 mt-12 pt-8 text-center">
           <p className="text-xs text-primary-foreground/40">
-            © {new Date().getFullYear()} Supernutre Comercial Eireli. Todos os
+            © {new Date().getFullYear()} Supernutre Comercial Ltda. - ME. Todos os
             direitos reservados.
           </p>
         </div>
