@@ -49,7 +49,7 @@ export function ContactForm() {
               Fale conosco
             </span>
             <h2 className="heading-section mt-3 text-foreground">
-              Solicite seu Orçamento
+              Entre em Contato
             </h2>
             <p className="text-body-lg mt-4">
               Preencha o formulário abaixo e nossa equipe comercial entrará em

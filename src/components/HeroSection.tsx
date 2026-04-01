@@ -38,7 +38,7 @@ export function HeroSection() {
           <div className="animate-fade-up-delay-3 flex flex-col sm:flex-row gap-4 mt-10">
             <Button size="lg" asChild className="text-base px-8">
               <a href="#contato">
-                Solicitar Orçamento
+                Fale Conosco
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
             </Button>
