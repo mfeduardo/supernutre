@@ -51,7 +51,7 @@ export function Header() {
               </a>
             ))}
             <Button asChild>
-              <a href="#contato">Solicitar Orçamento</a>
+              <a href="#contato">Fale Conosco</a>
             </Button>
           </div>
 
@@ -81,7 +81,7 @@ export function Header() {
               ))}
               <Button asChild className="mt-2">
                 <a href="#contato" onClick={() => setIsMobileOpen(false)}>
-                  Solicitar Orçamento
+                  Fale Conosco
                 </a>
               </Button>
             </div>

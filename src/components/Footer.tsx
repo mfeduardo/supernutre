@@ -72,7 +72,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-primary-foreground/60">
               <li>
                 <span className="text-primary-foreground/80">Razão Social:</span>{" "}
-                Supernutre Comercial Ltda. - ME
+                Supernutre Comercial Eireli
               </li>
               <li>
                 <span className="text-primary-foreground/80">CNPJ:</span>{" "}
